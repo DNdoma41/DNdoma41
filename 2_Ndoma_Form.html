@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Module6B_Ans</title>
+	<link rel="stylesheet" type="process.php" href="class.php">
+<style>
+    table,tbody,th, td {
+    border: solid 1pt black;
+    border-collapse: collapse;
+    padding: 10pt;  
+}
+    </style>
+</head>
+<body>
+
+<fieldset>
+    <legend>Name</legend>
+    <form action="https://uborujaniii.info/class/module6/room.php" method="POST" autocomplete="off">
+        <label for="course">Name:</label> <br>
+        <input type="text" name="name" required><br>
+
+        <label for="course">GWID:</label> <br>
+        <input type="text" name="GWID" required><br>
+        <label >Building</label> 
+
+                <br>
+                    <select name = "Building">
+                    <option >Preferred Building</option>
+                    <option>Funger</option>
+                    <option>Duques</option>
+                    <option>Library</option>    
+
+        <br><br>
+
+        <label for="instructor">Date:</label><br>
+        <input type="Date" name="date" required><br>
+
+        <label for="meetingTime">Start Time:</label><br>
+        <input type="Time" name="meetingTime" required><br>
+
+         <label for="meetingTime">End Time:</label><br>
+        <input type="Time" name="time" required><br>
+
+        <label for="active"> <br>Active</label> 
+        <br>
+         <input type="radio" name="status" value="1" checked>Yes</input>
+         <input type="radio" name="status" value="2">No</input>
+        <input type="submit" value="Confirmation">
+    </form>
+</fieldset>
+
+
+
+</body>
+</html>
